@@ -43,5 +43,8 @@ print('Quantidade de filmes por língua original', numero_vezes_por_lingua_origi
 
 #sns.barplot(x = "Língua original", y = "Quantidade de filmes", data = numero_vezes_por_lingua_original )
 # OU Simplesmente
-sns.catplot(x = "original_language", kind = "count", data = filmes_tmdb)
+#sns.catplot(x = "original_language", kind = "count", data = filmes_tmdb)
+
+### Gráfico de pizza
+plt.pie(numero_vezes_por_lingua_original["Quantidade de filmes"], labels = numero_vezes_por_lingua_original["Língua original"])
 plt.show()
