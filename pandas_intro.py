@@ -47,7 +47,7 @@ por_num_quartos = por_num_quartos['Quartos'].value_counts()
 
 dados_imoveis_residenciais = pd.read_csv('C:/Users/Tha/DataScience-Curso/extras/dados_imoveis_residenciais.csv', sep=';')
 print(dados_imoveis_residenciais)
-
+--aa
 '''
 
 
